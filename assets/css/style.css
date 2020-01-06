@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 90px;
+}
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    background-color: #4aaaa5;
+    float: left;
+    height: 88px;
+    width: 250px;
+    margin-left: 240px;
+    padding: 35px;
+}
+.nav {
+    float: right;
+    margin-right: 240px;
+    padding-top: 30px;
+}
+.nav ul {
+    width: 250px;
+}
+.nav ul li {
+    display: inline;
+    color: #777777;
+    padding: 10px;
+}
+.link-item::after  {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    margin: 0 10px 0;
+    background-color: #cccccc;
+}
+.nav a {
+    text-decoration: none;
+    color: #777777;
+}
+body {
+    background-image: url(../images/so-white.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 60px;
+}
+.main {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top: 25px;
+    border: 1px solid #dddddd;
+}
+.main h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+.about {
+    padding: 20px;
+    color: #777777;
+    font-size: 18px;
+    line-height: 2;
+}
+#avatar {
+    float: left;
+    height: 300px;
+    padding: 0 20px 15px 0;
+}
+.portfolio {
+    padding: 20px;
+    height: 500px;
+}
+.portfolio-item {
+    float: left;
+    width: 25%;
+    height: 175px;
+    position: relative;
+    margin: 0 20px 20px 0;
+}
+.portfolio-item h3 {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    padding: 10px 0px;
+    bottom: 10px;
+    left: 0px;
+}
+#portfolio-job{
+    background-image: url(https://place-hold.it/230x175);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact {
+    padding: 15px 25px;
+    color: #777777;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.wrap {
+    padding-bottom: 200px;
+}
+input{
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+textarea {
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: hidden;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    height: 85px;
+    padding: 35px 0 10px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
